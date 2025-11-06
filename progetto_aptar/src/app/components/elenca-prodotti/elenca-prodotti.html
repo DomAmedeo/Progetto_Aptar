@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Prodotto ID</th>
+            <th>Nome Prodotto</th>
+            <th>Fornitore ID</th>
+            <th>Categoria ID</th>
+            <th>Quantità</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prod of elenco">
+            <td>{{ prod.productId }}</td>
+            <td>{{ prod.productName }}</td>
+            <td>{{ prod.supplierId }}</td>
+            <td>{{ prod.categoryId }}</td>
+            <td>{{ prod.quantityPerUnit }}</td>
+        </tr>
+    </tbody>
+</table>
