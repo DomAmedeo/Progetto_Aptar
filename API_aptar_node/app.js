@@ -1,6 +1,9 @@
-const express = require('express');
-const cors = require('cors');
-const axios = require('axios');
+import express from "express";
+import cors from 'cors';
+import axios from'axios';
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
@@ -34,6 +37,8 @@ app.get('/prodotto/:id',async(req,res)=>{
     }
 });
 
-app.listen(port,() =>{
-    console.log(`Server avviato su http://localhost:${port}`);
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT,() =>
+    {console.log(`Server avviato su http://localhost:${PORT}`);
 });

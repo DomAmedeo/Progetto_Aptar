@@ -7,5 +7,5 @@ Sulla parte del backend ho utilizzato:
 - axios per effettuare richeste HTTP
 
 Sulla parte frontend sviluppata con angular, sono presenti:
--elenca che mostra i primi 10 prodotti mandati dall'api,
--dettaglio che non sono riuscito ad implementare che avrebbe dovuto avere il compito di effettuare una ricerca tramite id del prodotto
+-elenca: che mostra i primi 10 prodotti mandati dall'api,
+-dettaglio/prodottoID: che non sono riuscito ad implementare che avrebbe dovuto avere il compito di effettuare una ricerca tramite id del prodotto
